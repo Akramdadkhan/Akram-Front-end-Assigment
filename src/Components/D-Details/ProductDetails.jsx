@@ -11,7 +11,7 @@ const ProductDetails = () => {
                     <div>
                        <h3>{item.title }</h3>
                       <img src={item.image} width="150px" height="150px" alt="" />
-                      <h3>Price:{item.price}</h3>
+                      <h3>Price:{item.price}$</h3>
                         <button className='b1' onClick={()=>dispatch({type:"ADD_CART",data:item})}>Add To Cart</button>
                     </div>
                   );

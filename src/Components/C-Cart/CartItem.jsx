@@ -14,7 +14,7 @@ const CartItem = () => {
           <div>
             <h3>{item.title }</h3>
             <img src={item.image} width="150px" height="150px" alt="" />
-            <h3>Price:{item.price}</h3>
+            <h3>Price:{item.price}$</h3>
             <Link to="/details">
               <button className="b2">Details</button>
             </Link>
