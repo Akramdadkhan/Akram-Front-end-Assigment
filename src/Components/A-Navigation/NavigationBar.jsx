@@ -1,10 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useSelector } from "react-redux";
 import "./Navigation.css"
 
 const NavigationBar = ({setText}) => {
-  const cartItem=useSelector((state)=>state.productReducer.cart)
+ 
   return (
     <div>
       <Link to="/" className="Name" > Akram Assignment</Link>

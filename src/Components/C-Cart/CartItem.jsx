@@ -16,9 +16,9 @@ const CartItem = () => {
             <img src={item.image} width="150px" height="150px" alt="" />
             <h3>Price:{item.price}$</h3>
             <Link to="/details">
-              <button className="b2">Details</button>
+              <button className="b2">Process Sell</button>
             </Link>
-            <button className="b3" onClick={()=>dispatch({type:"REMOVE_ITEM",data:item})}>Remove</button>
+            <button className="b3" onClick={()=>dispatch({type:"REMOVE_ITEM",data:item})}>Cancel Sell</button>
           </div>
         );
       })}
